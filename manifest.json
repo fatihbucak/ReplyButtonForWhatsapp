@@ -1,0 +1,21 @@
+{
+  "name": "Reply Button for WhatsApp",
+  "version": "1.0.0",
+  "author": "Fatih Mustafa Bucak",
+  "description": "Use reply button to reply messages",
+  "permissions": [],
+  "options_page": "info.html",
+    "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icons16.png",
+    "32": "images/icons32.png",
+    "48": "images/icons48.png",
+    "128": "images/icons128.png"
+  },
+  "manifest_version": 2
+}
