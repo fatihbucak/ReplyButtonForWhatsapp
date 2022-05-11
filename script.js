@@ -15,10 +15,10 @@ function mouseOverMethod(e) {
         if (target.classList.contains("focusable-list-item")) {
             if (target.classList.contains("message-in")) {
                 reply_div.style.left = '';
-                reply_div.style.right = '-35px';
+                reply_div.style.right = '-70px';
             }else if (target.classList.contains("message-out")) {
                 reply_div.style.right = '';
-                reply_div.style.left = '-35px';
+                reply_div.style.left = '-70px';
             }else{
                 break;
             }
